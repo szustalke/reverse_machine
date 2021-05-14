@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Codystar:wght@300&family=Goblin+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  color: white;
+  font-family: Codystar;
+}
+
+input {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: white;
+  padding-left: 8px;
+}
+
+input:focus {
+  outline: none;
+}
+.input {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 35px;
+  width: 300px;
+  margin-top: 5px;
+}
+#input-final,
+#input-initial {
+  width: 75%;
+}
+
+button {
+  font-family: Codystar;
+}
+
+.btn-copy,
+.btn-clr {
+  position: relative;
+  height: 100%;
+  width: 25%;
+  float: right;
+}
+
+.btn-make {
+  height: 35px;
+  width: 130px;
+  margin-top: 25px;
+}
+
+/* when you click button change it to slightly bigger and brighter before coming back to usual size and colour */
+
+/* POSITION */
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+  max-width: 450px;
+  text-align: justify;
+}
